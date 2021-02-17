@@ -42,3 +42,64 @@ table {
 	border-spacing: 0;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+   font-family: 'Roboto Mono', monospace
+}
+
+h1 {
+  font-family: 'Chelsea Market', cursive;
+}
+
+.round {
+  border-radius: 50%;
+}
+
+.top-right {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  border: solid black 1px;
+  margin: 5% 8% 5% 20%
+}
+
+.valley {
+  background-color: #DDB9A3;
+  text-align: center;
+  color: white;
+}
+
+
+.fire, .vehicle {
+  text-align: center;
+  border: solid black 1px;
+  margin: 5% 30% 5% 30%;
+}
+
+p6, p7, p8 {
+  margin: 1em;
+}
+
+p6 {
+  background-color: #FF764E;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 20px;
+}
+
+p7 {
+  background-color: #5ED3EB;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 20px;
+}
+
+p8 {
+  background-color: #FFCD69;
+  color: white;
+  padding: 0.6rem;
+  border-radius: 20px;
+}
