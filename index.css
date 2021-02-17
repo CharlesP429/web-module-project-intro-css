@@ -23,6 +23,7 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1;
 }
@@ -55,7 +56,12 @@ h1 {
 }
 
 .round {
-  border-radius: 50%;
+  border-radius: 100%;
+  margin: 25% 25% 25% 25%;
+}
+
+.stretch {
+    margin: 2% 0% 2% 0%;
 }
 
 .top-right {
@@ -75,6 +81,11 @@ h1 {
 .fire, .vehicle {
   text-align: center;
   margin: 5% 30% 5% 30%;
+}
+
+.rec, .camp {
+    text-align: center;
+  margin: 5% 25% 5% 25%;
 }
 
 p6, p7, p8 {
